@@ -8,7 +8,7 @@ from sklearn.preprocessing import StandardScaler
 from fractions import Fraction
 
 # ==== USER SETTINGS ====
-wav_path     = r'F:\AFRDC\VOR\Measurment\dr_omar\IQ\2025_07_17\17-05-14_108000000Hz_60.wav'
+wav_path     = r'put your wav file here'
 fs_iq        = 20_48_000    # IQ sampling rate
 rec_center   = 108.0e6     # RF center of recording
 station_freq = 108.0e6     # VOR carrier tuned
@@ -130,3 +130,4 @@ plt.xlabel("Phase (°)"); plt.ylabel("Count")
 plt.legend(loc='upper right'); plt.tight_layout()
 
 plt.show()
+
